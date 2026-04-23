@@ -11,7 +11,7 @@ https://www.formbot3d.com/products/stealthburner-extruder-for-troodon-20?Variant
 ## FormBot Moons Stepper Motor Wiring Ref:
 If you cant Print ABS or Dont want to print your StealthBurner - [https://www.etsy.com](https://www.etsy.com/search?q=voron+stealthburner+clockwork+2&ref=auto-1
 
-*Blue >  Blue (On Stock Connector)
+* Blue >  Blue (On Stock Connector)
 * Red > Red (On Stock Connector)
 * Orange > Black (On Stock Connector)
 * Black > Green (On Stock Connector)
