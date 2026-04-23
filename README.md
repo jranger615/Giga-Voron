@@ -6,6 +6,7 @@ https://www.formbot3d.com/products/stealthburner-extruder-for-troodon-20?Variant
 
 * The stock board uses  ZH1.5 Connectors, you can buy connector packs on amazon, for ease of use, i buy the pre-crimped ones as they are tiny.
 
+*2510 24v Fan (Optional for Extruder Board Cooling)
 
 ## FormBot Moons Stepper Motor Wiring Ref:
 If you cant Print ABS or Dont want to print your StealthBurner - [https://www.etsy.com](https://www.etsy.com/search?q=voron+stealthburner+clockwork+2&ref=auto-1
@@ -16,6 +17,7 @@ If you cant Print ABS or Dont want to print your StealthBurner - [https://www.et
 * Black > Green (On Stock Connector)
 
 ## Fans:
-* You can use the Stock Fans from the Giga but the bottom fan wire will need to be extended.
+You can use the Stock Fans from the Giga 
+* Bottom fan wire will need to be extended.
 * Top Fan, you will have to slit the casing apart to fit in the giga
-* you with need a 2510 Fan for the Board Cooling Funtion
+* Optional 2510 Fan for the Board Cooling Funtion
