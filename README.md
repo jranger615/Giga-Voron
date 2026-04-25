@@ -29,6 +29,7 @@ You can use the Stock Fans from the Giga
 *  Ground White
 
 # PRINTER.CFG CHANGES
+Y Offset changes everywhere to +15 to accomdate the size of the VORON
 
 ## Probe Offsets
   ```ruby
@@ -75,7 +76,7 @@ SET_PIN PIN=fan1 VALUE=150
  ```
 ## In [gcode_macro PAUSE]
   ```ruby
-{% set y_park = params.Y|default(printer.toolhead.axis_minimum.y + 45)|int %}   # changed +30 → +45\
+{% set y_park = params.Y|default(printer.toolhead.axis_minimum.y + 45)|int %}   # changed +30 → +45
  ```
 ## in [homing_override]
   ```ruby
