@@ -67,7 +67,7 @@ gcode:
  ```
 
 ## [gcode_macro PRINT_START]  
-Added incase you run multiple prints. I Macro 107 to turn off both cooling fan and the extruder board fan so a new print will start the board fan back up
+Add to top of PRINT Start Macro, this turns on the Extruder Board Cooling fan when you start a print. 
   ```ruby
 SET_PIN PIN=fan1 VALUE=150
  ```
