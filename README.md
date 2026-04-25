@@ -51,9 +51,8 @@ x_offset: 0
   ```ruby
 
 [gcode_macro EXTRUDER_FAN_ON]
-##Turn On Extuder Board Cooler
 gcode:
-SET_PIN PIN=fan1 VALUE=150
+    SET_PIN PIN=fan1 VALUE=150     # ~59% speed on your new extruder fan
 
 [delayed_gcode TURN_ON_EXTRUDER_FAN]
 initial_duration: 2.0      # Wait 2 seconds after Klipper starts
