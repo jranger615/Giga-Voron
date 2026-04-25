@@ -75,3 +75,11 @@ Added incase you run multiple prints. I Macro 107 to turn off both cooling fan a
   ```ruby
 SET_PIN PIN=fan1 VALUE=150
  ```
+## In [gcode_macro CANCEL_PRINT]
+  ```ruby
+{% set y_park = params.Y|default(printer.toolhead.axis_minimum.y + 45)|int %}   # changed +30 → +45
+ ```
+## In [gcode_macro PAUSE]
+  ```ruby
+{% set y_park = params.Y|default(printer.toolhead.axis_minimum.y + 45)|int %}   # changed +30 → +45\
+ ```
