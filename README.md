@@ -31,3 +31,7 @@ You can use the Stock Fans from the Giga
 ## Probe Offsets
 * y_offset: 16
 * x_offset: 0
+
+## [stepper_y]
+position_min: 15
+
