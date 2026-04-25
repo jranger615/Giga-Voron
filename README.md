@@ -56,3 +56,13 @@ x_offset: 0
   ```ruby
     {% set y_park = 218 | float %}     # was 203 → add +15
  ```
+
+## in PLR.CFG
+  ```ruby
+[delayed_gcode KINEMATIC_POSITION]
+initial_duration:0.2
+gcode:
+      SET_KINEMATIC_POSITION X=0
+      SET_KINEMATIC_POSITION Y=25 #Changed from 0 to make sure we dont crash into the front
+      SET_KINEMATIC_POSITION Z=0
+ ```
