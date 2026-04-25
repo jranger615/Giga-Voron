@@ -21,3 +21,9 @@ You can use the Stock Fans from the Giga
 * Bottom fan wire will need to be extended.
 * Top Fan, you will have to slit the casing apart to fit in the giga
 * Optional 2510 Fan for the Board Cooling Funtion
+
+## Can Bus Wiring UT30 2+2
+*  Can Low - Green
+*  Can High Black
+*  24V Red
+*  Ground White
