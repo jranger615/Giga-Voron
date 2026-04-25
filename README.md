@@ -80,6 +80,5 @@ gcode:
 
 ## Still to change
 * gear_ratio: 50:10
-* rotation_distance: 22.635 #This needs to be adjusted and Calibrated to youyr machine. 
-* gear_ratio: 50:10
+* rotation_distance: 22.635 #This needs to be adjusted and Calibrated to youyr machine.  Stock start point 22.68 
 * sensor_type: ATC Semitec 104NT-4-R025H42G # Change to match Sensor 
