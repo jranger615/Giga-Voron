@@ -49,7 +49,15 @@ x_offset: 0
  This can be set almost anywhere in printer.cfg but not in one of the MACROS
 
   ```ruby
+
+[gcode_macro EXTRUDER_FAN_ON]
+##Turn On Extuder Board Cooler
 SET_PIN PIN=fan1 VALUE=150
+
+[delayed_gcode TURN_ON_EXTRUDER_FAN]
+initial_duration: 2.0      # Wait 2 seconds after Klipper starts
+gcode:
+    EXTRUDER_FAN_ON
  ```
 ## In [gcode_macro M106]
 Removed all Fan1 functions from M106
