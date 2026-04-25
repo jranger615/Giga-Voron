@@ -17,7 +17,7 @@ https://www.formbot3d.com/products/stealthburner-extruder-for-troodon-20?Variant
 ## Fans:
 You can use the Stock Fans from the Giga 
 * Bottom fan wire will need to be extended.
-* Top Fan, you will have to slit the casing apart to fit in the Voron
+* Top Fan, you will have to split the casing apart to fit in the Voron
 * Optional 2510 Fan for the Board Cooling Funtion
 
 ## Can Bus Wiring XT30 2+2
