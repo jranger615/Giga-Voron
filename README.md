@@ -69,3 +69,9 @@ gcode:
     #  {% endif %}
     # {% endif %}
  ```
+
+## [gcode_macro PRINT_START]  
+Added incase you run multiple prints. I Macro 107 to turn off both cooling fan and the extruder board fan so a new print will start the board fan back up
+  ```ruby
+SET_PIN PIN=fan1 VALUE=150
+ ```
