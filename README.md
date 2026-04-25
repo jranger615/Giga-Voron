@@ -27,3 +27,7 @@ You can use the Stock Fans from the Giga
 *  Can High Black
 *  24V Red
 *  Ground White
+
+## Probe Offsets
+* y_offset: 16
+* x_offset: 0
