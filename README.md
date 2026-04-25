@@ -83,3 +83,7 @@ SET_PIN PIN=fan1 VALUE=150
   ```ruby
 {% set y_park = params.Y|default(printer.toolhead.axis_minimum.y + 45)|int %}   # changed +30 → +45\
  ```
+## in [homing_override]
+  ```ruby
+    {% set y_park = 218 | float %}     # was 203 → add +15
+ ```
