@@ -44,41 +44,6 @@ x_offset: 0
 ```ruby
  mesh_min:16,25
  ```
-## Extuder Board Cooler 
-** Optional for Cooling FAN on at POWER UP
- This can be set almost anywhere in printer.cfg but not in one of the MACROS
-
-  ```ruby
-
-[gcode_macro EXTRUDER_FAN_ON]
-gcode:
-    SET_PIN PIN=fan1 VALUE=150     # ~59% speed on your new extruder fan
-
-[delayed_gcode TURN_ON_EXTRUDER_FAN]
-initial_duration: 2.0      # Wait 2 seconds after Klipper starts
-gcode:
-    EXTRUDER_FAN_ON
- ```
-## In [gcode_macro M106]
-Removed all Fan1 functions from M106
-
-  ```ruby
-#rename_existing:M106.1
-gcode:
-    {% if params.P is defined %}
-      {% if params.S is defined %}
-        SET_PIN PIN=fan{params.P|int} VALUE={params.S|int}
-      {% else %}
-        SET_PIN PIN=fan{params.P|int} VALUE=255
-      {% endif %}
-       {% endif %} #ADDED
- ```
-
-## In [gcode_macro PRINT_START]  
-Add to top of PRINT Start Macro, this turns on the Extruder Board Cooling fan when you start a print. 
-  ```ruby
-SET_PIN PIN=fan1 VALUE=150
- ```
 ## In [gcode_macro CANCEL_PRINT]
   ```ruby
 {% set y_park = params.Y|default(printer.toolhead.axis_minimum.y + 45)|int %}   # changed +30 → +45
