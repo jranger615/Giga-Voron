@@ -36,4 +36,8 @@ You can use the Stock Fans from the Giga
 * position_min: 15
 
 ## [bed_mesh]
-* mesh_min:16,25   
+* mesh_min:16,25
+
+## Extuder Board Cooler
+ This can be set almost anywhere in printer.cfg but not in one of the MACROS
+* SET_PIN PIN=fan1 VALUE=150
