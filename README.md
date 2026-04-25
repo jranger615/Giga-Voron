@@ -81,4 +81,8 @@ gcode:
 ## Still to change
 * gear_ratio: 50:10
 * rotation_distance: 22.635 #This needs to be adjusted and Calibrated to youyr machine.  Stock start point 22.68 
-* sensor_type: ATC Semitec 104NT-4-R025H42G # Change to match Sensor 
+* sensor_type: ATC Semitec 104NT-4-R025H42G # Change to match Sensor
+
+## Orca Slicer Changes
+* In the Machine Settings, Set Extruder 1, Retraction length to 1.1
+* Layer Heights Limits, Set Max to .48
