@@ -78,10 +78,8 @@ gcode:
       SET_KINEMATIC_POSITION Z=0
  ```
 
-## Still to changegear_ratio: 50:10
-full_steps_per_rotation: 200 #200 for 1.8 degree, 400 for 0.9 degree
-#rotation_distance: 3.6375075
-nozzle_diameter: 0.600 #Change if using different Nozzle
-filament_diameter: 1.750
-
-sensor_type: ATC Semitec 104NT-4-R025H42G # Change to match Sensor 
+## Still to change
+* gear_ratio: 50:10
+* rotation_distance: 22.635 #This needs to be adjusted and Calibrated to youyr machine. 
+* gear_ratio: 50:10
+* sensor_type: ATC Semitec 104NT-4-R025H42G # Change to match Sensor 
