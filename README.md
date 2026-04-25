@@ -31,16 +31,16 @@ You can use the Stock Fans from the Giga
 # PRINTER.CFG CHANGES
 Y Offset changes everywhere to +15 to accomdate the size of the VORON
 
-## Probe Offsets
+## In Probe Offsets
   ```ruby
 y_offset: 16
 x_offset: 0
  ```
-## [stepper_y]
+## In [stepper_y]
 ```ruby
  position_min: 15
  ```
-## [bed_mesh]
+## In [bed_mesh]
 ```ruby
  mesh_min:16,25
  ```
@@ -51,7 +51,7 @@ x_offset: 0
   ```ruby
 SET_PIN PIN=fan1 VALUE=150
  ```
-## [gcode_macro M106]
+## In [gcode_macro M106]
 Removed all Fan1 functions from M106
 
   ```ruby
@@ -66,7 +66,7 @@ gcode:
        {% endif %} #ADDED
  ```
 
-## [gcode_macro PRINT_START]  
+## In [gcode_macro PRINT_START]  
 Add to top of PRINT Start Macro, this turns on the Extruder Board Cooling fan when you start a print. 
   ```ruby
 SET_PIN PIN=fan1 VALUE=150
@@ -79,7 +79,7 @@ SET_PIN PIN=fan1 VALUE=150
   ```ruby
 {% set y_park = params.Y|default(printer.toolhead.axis_minimum.y + 45)|int %}   # changed +30 → +45
  ```
-## in [homing_override]
+## In [homing_override]
   ```ruby
     {% set y_park = 218 | float %}     # was 203 → add +15
  ```
