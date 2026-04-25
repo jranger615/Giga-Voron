@@ -37,25 +37,35 @@ y_offset: 16
 x_offset: 0
 z_offset: 10.0      # ← Add +10 (or start with +9.5 and fine-tune)
  ```
+
 ## In [stepper_y]
 ```ruby
  position_min: 15
  ```
+
 ## In [bed_mesh]
 ```ruby
  mesh_min:16,25
  ```
+
 ## In [gcode_macro CANCEL_PRINT]
   ```ruby
 {% set y_park = params.Y|default(printer.toolhead.axis_minimum.y + 45)|int %}   # changed +30 → +45
  ```
+
 ## In [gcode_macro PAUSE]
   ```ruby
 {% set y_park = params.Y|default(printer.toolhead.axis_minimum.y + 45)|int %}   # changed +30 → +45
  ```
+
 ## In [homing_override]
   ```ruby
     {% set y_park = 218 | float %}     # was 203 → add +15
+ ```
+
+## In [stepper_z]
+  ```ruby
+position_min: -22      # ← Change from -12 to -22 (gives more negative room)
  ```
 
 ## in PLR.CFG
