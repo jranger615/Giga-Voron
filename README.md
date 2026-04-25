@@ -35,6 +35,7 @@ Y Offset changes everywhere to +15 to accomdate the size of the VORON
   ```ruby
 y_offset: 16
 x_offset: 0
+z_offset: 10.0      # ← Add +10 (or start with +9.5 and fine-tune)
  ```
 ## In [stepper_y]
 ```ruby
