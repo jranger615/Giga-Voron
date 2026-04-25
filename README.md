@@ -19,7 +19,7 @@ If you cant Print ABS or Dont want to print your StealthBurner - [https://www.et
 ## Fans:
 You can use the Stock Fans from the Giga 
 * Bottom fan wire will need to be extended.
-* Top Fan, you will have to slit the casing apart to fit in the giga
+* Top Fan, you will have to slit the casing apart to fit in the Voron
 * Optional 2510 Fan for the Board Cooling Funtion
 
 ## Can Bus Wiring XT30 2+2
