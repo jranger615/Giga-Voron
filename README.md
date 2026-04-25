@@ -33,7 +33,7 @@ You can use the Stock Fans from the Giga
 * x_offset: 0
 
 ## [stepper_y]
-position_min: 15
+* position_min: 15
 
 ## [bed_mesh]
-mesh_min:16,25   
+* mesh_min:16,25   
