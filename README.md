@@ -52,6 +52,7 @@ x_offset: 0
 
 [gcode_macro EXTRUDER_FAN_ON]
 ##Turn On Extuder Board Cooler
+gcode:
 SET_PIN PIN=fan1 VALUE=150
 
 [delayed_gcode TURN_ON_EXTRUDER_FAN]
