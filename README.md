@@ -28,6 +28,8 @@ You can use the Stock Fans from the Giga
 *  24V Red
 *  Ground White
 
+# PRINTER.CFG CHANGES
+
 ## Probe Offsets
 * y_offset: 16
 * x_offset: 0
