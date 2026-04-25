@@ -48,16 +48,16 @@ You can use the Stock Fans from the Giga
 Add the # marks in the 2nd part of this code or delete those sections. That removes the cooling fan on/off for them. 
 
 gcode:
-    {% if params.P is defined %}
-      {% if params.S is defined %}
-        SET_PIN PIN=fan{params.P|int} VALUE={params.S|int}
-      {% else %}
-        SET_PIN PIN=fan{params.P|int} VALUE=255
-      {% endif %}
-    #{% else %}
-    #  {% if params.S is defined %}
-    #    SET_PIN PIN=fan1 VALUE={params.S|int}
-    #  {% else %}
-    #    SET_PIN PIN=fan1 VALUE=255 
-    #  {% endif %}
-    # {% endif %}
+*    {% if params.P is defined %}
+*      {% if params.S is defined %}
+*        SET_PIN PIN=fan{params.P|int} VALUE={params.S|int}
+*      {% else %}
+*        SET_PIN PIN=fan{params.P|int} VALUE=255
+*      {% endif %}
+*    #{% else %}
+*    #  {% if params.S is defined %}
+*    #    SET_PIN PIN=fan1 VALUE={params.S|int}
+*    #  {% else %}
+*    #    SET_PIN PIN=fan1 VALUE=255 
+*    #  {% endif %}
+*    # {% endif %}
