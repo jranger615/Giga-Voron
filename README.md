@@ -50,7 +50,7 @@ x_offset: 0
 SET_PIN PIN=fan1 VALUE=150
  ```
 ## [gcode_macro M106]
-Add the # marks in the 2nd part of this code or delete those sections. That removes the cooling fan on/off for them. 
+Removed all Fan1 functions from M106
 
   ```ruby
 #rename_existing:M106.1
@@ -61,13 +61,7 @@ gcode:
       {% else %}
         SET_PIN PIN=fan{params.P|int} VALUE=255
       {% endif %}
-    #{% else %}
-    #  {% if params.S is defined %}
-    #    SET_PIN PIN=fan1 VALUE={params.S|int}
-    #  {% else %}
-    #    SET_PIN PIN=fan1 VALUE=255 
-    #  {% endif %}
-    # {% endif %}
+       {% endif %} #ADDED
  ```
 
 ## [gcode_macro PRINT_START]  
