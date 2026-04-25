@@ -44,7 +44,8 @@ x_offset: 0
 ```ruby
  mesh_min:16,25
  ```
-## Extuder Board Cooler
+## Extuder Board Cooler 
+** Optional for Cooling FAN on at POWER UP
  This can be set almost anywhere in printer.cfg but not in one of the MACROS
 
   ```ruby
