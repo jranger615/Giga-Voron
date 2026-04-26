@@ -6,7 +6,6 @@
 ## Things you may want to buy
 * To save some assembly steps and the need for buy tons of screws you can by a fully assembled stealth burner. It will require dissassembly to attach to the new mounts and replace board/wiring
 https://www.formbot3d.com/products/stealthburner-extruder-for-troodon-20?VariantsId=11006
-
 * The stock board uses  ZH1.5 Connectors, you can buy connector packs on amazon, for ease of use, i buy the pre-crimped ones as they are tiny.
 * 2510 24v Fan (Optional for Extruder Board Cooling)
 * Longer Cable for the CAN  XT30 2+2. I extened mine but also made a new model of the mount to raise it up for the stock use. Will need to adjust your Z if you do this
