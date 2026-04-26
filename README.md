@@ -46,7 +46,7 @@ z_offset: 10.0      # ← Add +10 (or start with +9.5 and fine-tune)
 
 ## In [bed_mesh]
 ```ruby
- mesh_min:16,25
+ mesh_min:10,45
  ```
 
 ## In [gcode_macro CANCEL_PRINT]
