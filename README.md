@@ -8,20 +8,15 @@
 https://www.formbot3d.com/products/stealthburner-extruder-for-troodon-20?VariantsId=11006
 
 * The stock board uses  ZH1.5 Connectors, you can buy connector packs on amazon, for ease of use, i buy the pre-crimped ones as they are tiny.
-
 * 2510 24v Fan (Optional for Extruder Board Cooling)
-
 * Longer Cable for the CAN  XT30 2+2. I extened mine but also made a new model of the mount to raise it up for the stock use. Will need to adjust your Z if you do this
-
 * Some M3 screws for assembly (Various sizes for the LID, LID Fan, and Installing the board and adapter
-
   
-## Things you may want to buy
+## Things to Print
 * Your StealthBurner and Prefered Hot End (If you dont buy and dissasemble formbot)
 * The Adapter of Choice from the STL Folder (Beacon or Stock Sensor) I have no started the beacon config yet)
 * Board Adapter, this allows you to install the stock board on the Voron
-* 
-
+  
 ## FormBot Moons Stepper Motor Wiring Ref:
 * Blue >  Blue (On Stock Connector)
 * Red > Red (On Stock Connector)
