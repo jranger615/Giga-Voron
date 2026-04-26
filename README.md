@@ -12,7 +12,7 @@ https://www.formbot3d.com/products/stealthburner-extruder-for-troodon-20?Variant
 * Some M3 screws for assembly (Various sizes for the LID, LID Fan, and Installing the board and adapter
   
 ## Things to Print
-* Your StealthBurner and Prefered Hot End (If you dont buy and dissasemble formbot)
+* Your StealthBurner and Prefered Hot End Assembly (If you dont buy and dissasemble formbot)
 * The Adapter of Choice from the STL Folder (Beacon or Stock Sensor) I have no started the beacon config yet)
 * Board Adapter, this allows you to install the stock board on the Voron
   
