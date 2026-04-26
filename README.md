@@ -41,7 +41,7 @@ z_offset: 10.0      # ← Add +10 (or start with +9.5 and fine-tune)
 
 ## In [stepper_y]
 ```ruby
- position_min: 15
+ position_min: 29  # Nozzle was more forward then stock and the case was 15 mm bigger. After testing 29 brings the nozzle to the front 
  ```
 
 ## In [bed_mesh]
@@ -79,7 +79,7 @@ gcode:
       SET_KINEMATIC_POSITION Z=0
  ```
 
-## Still to change
+## In znp_thr1.cfg (Which ever port you use for yours)
 * gear_ratio: 50:10
 * rotation_distance: 22.635 #This needs to be adjusted and Calibrated to youyr machine.  Stock start point 22.68 
 * sensor_type: ATC Semitec 104NT-4-R025H42G # Change to match Sensor
