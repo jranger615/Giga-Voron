@@ -30,9 +30,9 @@ You can use the Stock Fans from the Giga
 
 ## Can Bus Wiring XT30 2+2
 *  Can Low - Green
-*  Can High Black
-*  24V Red
-*  Ground White
+*  Can High - Black
+*  24V - Red
+*  Ground - White
 
 # PRINTER.CFG CHANGES
 Y Offset changes everywhere to +15 to accomdate the size of the VORON
