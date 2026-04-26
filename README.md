@@ -15,6 +15,13 @@ https://www.formbot3d.com/products/stealthburner-extruder-for-troodon-20?Variant
 * Your StealthBurner and Prefered Hot End Assembly (If you dont buy and dissasemble formbot)
 * The Adapter of Choice from the STL Folder (Beacon or Stock Sensor) I have no started the beacon config yet)
 * Board Adapter, this allows you to install the stock board on the Voron
+* LID of Choice, Standard or FAN LID. This is different then stock stealth burner to accommodate the stock board install 
+
+## ASSEMBLY Notes
+* You will have to open up the top holes on the adapter a little or just work your M3 screws through them before install on the stealth burner.
+* Light and Stock sensor are very tight fit. Install them before your stealthburner
+* Screws will be longer then the stock mount screws. Make sure you dont get them too long or the mount might not sit flush
+* 
   
 ## FormBot Moons Stepper Motor Wiring Ref:
 * Blue >  Blue (On Stock Connector)
