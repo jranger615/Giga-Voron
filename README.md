@@ -1,6 +1,6 @@
 # Giga-Voron
 
-### 4-25-2026 - adding LOW version of my Adapter, this lowers the mount by 10mm (Raises the voron), which should allow for stock use of the connection cable. I HAVE not tested it out but it should work fine, just make sure to keep your stock stepper Z min position if you use it. 
+#### 4-25-2026 - adding LOW version of my Adapter, this lowers the mount by 10mm (Raises the voron), which should allow for use of the stock connection cable. I HAVE not tested it out but it should work fine, just make sure to keep your stock stepper Z min position if you use it. 
 
 
 ## Things you may want to buy
