@@ -1,5 +1,8 @@
 # Giga-Voron
 
+### 4-25-2026 - adding LOW version of my Adapter, this lowers the mount by 10mm (Raises the voron), which should allow for stock use of the connection cable. I HAVE not tested it out but it should work fine, just make sure to keep your stock stepper Z min position if you use it. 
+
+
 ## Things you may want to buy
 * To save some assembly steps and the need for buy tons of screws you can by a fully assembled stealth burner. It will require dissassembly to attach to the new mounts and replace board/wiring
 https://www.formbot3d.com/products/stealthburner-extruder-for-troodon-20?VariantsId=11006
