@@ -69,6 +69,11 @@ z_offset: 10.0      # ← Add +10 (or start with +9.5 and fine-tune)
 position_min: -22      # ← Change from -12 to -22 (gives more negative room)
  ```
 
+## In [stepper_x]
+  ```ruby
+position_min: -1     # ← Change from -5 to -1 Position the nozzle at edge 
+ ```
+
 ## in PLR.CFG
   ```ruby
 [delayed_gcode KINEMATIC_POSITION]
