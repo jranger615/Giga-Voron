@@ -21,7 +21,12 @@ https://www.formbot3d.com/products/stealthburner-extruder-for-troodon-20?Variant
 * You will have to open up the top holes on the adapter a little or just work your M3 screws through them before install on the stealth burner.
 * Light and Stock sensor are very tight fit. Install them before your stealthburner
 * Screws will be longer then the stock mount screws. Make sure you dont get them too long or the mount might not sit flush
-* 
+
+## Stealthburner
+Assemble the VORON Stealthburner if you dindt buy the formBot. Remember we use a different LID and Board Adapter.
+* Follow the build guide located here. This is a large step, and your toolhead will only function as well as you assemble it, so take your time.
+* this video is also helpful https://youtu.be/dOyYvnehLaI?si=HIRMF422sOZMZnhB
+  
   
 ## FormBot Moons Stepper Motor Wiring Ref:
 * Blue >  Blue (On Stock Connector)
