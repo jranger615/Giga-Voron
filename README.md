@@ -26,6 +26,13 @@ https://www.formbot3d.com/products/stealthburner-extruder-for-troodon-20?Variant
 Assemble the VORON Stealthburner if you dindt buy the formBot. Remember we use a different LID and Board Adapter.
 * Follow the build guide located here. This is a large step, and your toolhead will only function as well as you assemble it, so take your time.
 * this video is also helpful https://youtu.be/dOyYvnehLaI?si=HIRMF422sOZMZnhB
+
+* ## Board Diagram and Adapter Mount
+  The board Adapter attaches with 2 M3 screws and the stock board requires a m3 screw and washer to hold secure.
+  * Attach all wires before sliding the board into place. Itsa tight fit and goes in on an angle.
+  * There is an allighment pin on the right next to the nut cert, this helps keep the board in place when the 1 bolt is installed
+  * ![image](https://github.com/jranger615/Giga-Voron/blob/main/photos/Giga_BoardAdapter.jpg)
+  * ![image](https://github.com/jranger615/Giga-Voron/blob/main/photos/board-diagram.png)
   
   
 ## FormBot Moons Stepper Motor Wiring Ref:
